@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        
+        <meta charset="UTF-8">
+        <title>formulario de inscripción de estudiantes</title>
+        <h1><strong><i><center>Formulario De Inscripción De Estudiantes</center></i></strong></h1>
+        <div align="center"><img src="univ.jpg" alt="LaUniversidad" ></div>
+
+
+    </head>
+
+    <body style="background-color: rgb(232, 255, 253);">
+        <form>
+        <fieldset><label >Nombres</label><input type="text" name="Nombres:"></fieldset>
+        <fieldset><label >Apellidos</label><input type="text" name="Apellidos:"></fieldset>
+        <fieldset><label >Direccion</label><input type="text" name="Direccion:"></fieldset>
+        <fieldset><label >Telefono</label><input type="text" name="Telefono"></fieldset>
+        <fieldset><label >Email&emsp;</label><input type="email" name="Direccion de correo electronico"></fieldset>
+        <fieldset><label >Contraseña</label><input type="password" name="Contrasena"></fieldset>
+        <fieldset><label >¿Becado?</label><input type="checkbox" name="Becado"></fieldset>
+        <fieldset><label for="Fecha">Fecha de nacimiento:</label>
+            <input type="date" id="Fecha" name="Fecha de nacimiento"
+                   value="2018-07-22"
+                   min="1980-01-01" max="2021-09-06"></fieldset>
+        <fieldset><label >Color Distintivo</label><input type="color" name="Color"></fieldset>
+        <fieldset><label ></label><textarea name="textarea" rows="15" cols="50" autocapitalize="sentences">Acerca de mi</textarea></fieldset>
+        <fieldset><label >Genero:<br></label>
+            <input type="radio" name="Genero" value="Masculino"> Masculino<br>       
+            <input type="radio" name="Genero" value="Femenino"> Femenino<br>      
+            <input type="radio" name="Genero" value="Otro"> Otro
+        </fieldset>
+        <fieldset><label>Area</label><select name="Area">
+            <option>Derecho</option>
+            <option>Ingenieria</option>
+            <option>Medicina</option>
+        </select></fieldset>
+        <fieldset align="center"><input type="submit" value="Enviar" name="Enviar"></fieldset>
+        </form>
+    
+        </body>
+    
+
+
+
+
+
+
+
+
+
+</html>
